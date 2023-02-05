@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">55.55% </span>
+                <span class="strong">25.92% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>15/27</span>
+                <span class='fraction'>7/27</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">60% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>3/5</span>
+                <span class='fraction'>0/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">37.5% </span>
+                <span class="strong">12.5% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>3/8</span>
+                <span class='fraction'>1/8</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">53.84% </span>
+                <span class="strong">23.07% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>14/26</span>
+                <span class='fraction'>6/26</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -120,25 +120,25 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -168,26 +168,26 @@ import { IncomingMessage } from "http";
 export class Utils {
 &nbsp;
 &nbsp;
-    public static parseUrl(url: string): UrlWithParsedQuery {
-        <span class="missing-if-branch" title="if path not taken" >I</span>if (!url) {
+<span class="fstat-no" title="function not covered" >    public static p</span>arseUrl(url: string): UrlWithParsedQuery {
+<span class="cstat-no" title="statement not covered" >        <span class="missing-if-branch" title="if path not taken" >I</span>if (!url) {</span>
 <span class="cstat-no" title="statement not covered" >            throw new Error('Empty url!');</span>
 &nbsp;
         }
-        return parse(url, true);
+<span class="cstat-no" title="statement not covered" >        return parse(url, true);</span>
     }
 &nbsp;
     // Dummy object test example
-    public static getRequestBasePath(req: IncomingMessage): string {
-        const url = req.url;
-        if (url) {
-            const parsedUrl = this.parseUrl(url);
-            if (parsedUrl.pathname) {
-                return parsedUrl.pathname.split('/')[1];
-            } else <span class="missing-if-branch" title="else path not taken" >E</span>{
+<span class="fstat-no" title="function not covered" >    public static g</span>etRequestBasePath(req: IncomingMessage): string {
+        const url = <span class="cstat-no" title="statement not covered" >req.url;</span>
+<span class="cstat-no" title="statement not covered" >        if (url) {</span>
+            const parsedUrl = <span class="cstat-no" title="statement not covered" >this.parseUrl(url);</span>
+<span class="cstat-no" title="statement not covered" >            if (parsedUrl.pathname) {</span>
+<span class="cstat-no" title="statement not covered" >                return parsedUrl.pathname.split('/')[1];</span>
+            } else {
 <span class="cstat-no" title="statement not covered" >                return ''</span>
             }
         } else {
-            return '';
+<span class="cstat-no" title="statement not covered" >            return '';</span>
         }
     }
 &nbsp;
@@ -217,7 +217,7 @@ export class Utils {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-02-05T12:37:09.197Z
+                at 2023-02-05T13:20:16.140Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

@@ -8,8 +8,8 @@ const configure: Config.InitialOptions = {
   testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$",
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   verbose: true,
-  collectCoverage: true,
-  collectCoverageFrom: ["<rootDir>/src/app/**/*.ts"],
+  // collectCoverage: true,
+  // collectCoverageFrom: ["<rootDir>/src/app/**/*.ts"],
 };
 
 export default configure;
