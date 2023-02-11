@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1676108765897" clover="3.2.0">
-  <project timestamp="1676108765897" name="All files">
-    <metrics statements="227" coveredstatements="188" conditionals="66" coveredconditionals="50" methods="57" coveredmethods="39" elements="350" coveredelements="277" complexity="0" loc="227" ncloc="227" packages="6" files="9" classes="9"/>
+<coverage generated="1676115058680" clover="3.2.0">
+  <project timestamp="1676115058680" name="All files">
+    <metrics statements="235" coveredstatements="210" conditionals="70" coveredconditionals="59" methods="60" coveredmethods="49" elements="365" coveredelements="318" complexity="0" loc="235" ncloc="235" packages="6" files="9" classes="9"/>
     <package name="Authorization">
-      <metrics statements="67" coveredstatements="52" conditionals="25" coveredconditionals="17" methods="22" coveredmethods="15"/>
+      <metrics statements="75" coveredstatements="74" conditionals="29" coveredconditionals="26" methods="25" coveredmethods="25"/>
       <file name="Authorizer.ts" path="/home/alex/RubymineProjects/TS/TS Tests(part 2)/src/app/Authorization/Authorizer.ts">
         <metrics statements="27" coveredstatements="27" conditionals="11" coveredconditionals="11" methods="6" coveredmethods="6"/>
         <line num="1" count="2" type="stmt"/>
@@ -35,50 +35,58 @@
         <line num="62" count="2" type="stmt"/>
       </file>
       <file name="SessionTokenDBAccess.ts" path="/home/alex/RubymineProjects/TS/TS Tests(part 2)/src/app/Authorization/SessionTokenDBAccess.ts">
-        <metrics statements="20" coveredstatements="20" conditionals="7" coveredconditionals="6" methods="8" coveredmethods="8"/>
+        <metrics statements="28" coveredstatements="27" conditionals="11" coveredconditionals="9" methods="11" coveredmethods="11"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
-        <line num="8" count="5" type="cond" truecount="0" falsecount="1"/>
-        <line num="9" count="5" type="stmt"/>
-        <line num="10" count="5" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
+        <line num="7" count="7" type="cond" truecount="0" falsecount="1"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
         <line num="25" count="3" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="28" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="31" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
         <line num="40" count="3" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="46" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="49" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
       </file>
       <file name="UserCredentialsDbAccess.ts" path="/home/alex/RubymineProjects/TS/TS Tests(part 2)/src/app/Authorization/UserCredentialsDbAccess.ts">
-        <metrics statements="20" coveredstatements="5" conditionals="7" coveredconditionals="0" methods="8" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="8" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="43" count="2" type="stmt"/>
+        <metrics statements="20" coveredstatements="20" conditionals="7" coveredconditionals="6" methods="8" coveredmethods="8"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="34" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
       </file>
     </package>
     <package name="Data">
@@ -189,28 +197,28 @@
       <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
       <file name="ServerModels.ts" path="/home/alex/RubymineProjects/TS/TS Tests(part 2)/src/app/Models/ServerModels.ts">
         <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
-        <line num="21" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
         <line num="22" count="6" type="stmt"/>
-        <line num="23" count="6" type="stmt"/>
-        <line num="24" count="6" type="stmt"/>
-        <line num="27" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
         <line num="28" count="6" type="stmt"/>
         <line num="29" count="6" type="stmt"/>
-        <line num="30" count="6" type="stmt"/>
-        <line num="31" count="6" type="stmt"/>
-        <line num="51" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="6" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
         <line num="52" count="6" type="stmt"/>
         <line num="53" count="6" type="stmt"/>
         <line num="54" count="6" type="stmt"/>
         <line num="55" count="6" type="stmt"/>
-        <line num="56" count="6" type="stmt"/>
-        <line num="57" count="6" type="stmt"/>
-        <line num="60" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="6" type="stmt"/>
+        <line num="60" count="6" type="stmt"/>
         <line num="61" count="6" type="stmt"/>
         <line num="62" count="6" type="stmt"/>
         <line num="63" count="6" type="stmt"/>
-        <line num="64" count="6" type="stmt"/>
-        <line num="65" count="6" type="stmt"/>
       </file>
     </package>
     <package name="Server">

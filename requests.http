@@ -1,3 +1,5 @@
+
+
 POST http://localhost:8080/login
 Content-Type: application/json
 
@@ -8,7 +10,7 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:8080/users?name=user1
-Authorization: 1sv7jpsr9yuh
+GET http://localhost:8080/users?name=someName1
+Authorization: nl3oisu6zgl
 
 ###

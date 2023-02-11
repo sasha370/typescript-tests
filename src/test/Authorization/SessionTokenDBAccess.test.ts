@@ -10,6 +10,7 @@ describe("SessionTokenDBAccess test suite", () => {
     loadDatabase: jest.fn(),
     insert: jest.fn(),
     find: jest.fn(),
+    remove: jest.fn(),
   };
 
   const someToken: SessionToken = {
@@ -92,6 +93,40 @@ describe("SessionTokenDBAccess test suite", () => {
     );
     expect(nedbMock.find).toBeCalledWith(
       { tokenId: someTokenId },
+      expect.any(Function)
+    );
+  });
+
+  test("deleteToken without error", async () => {
+    const someTokenId = "someTokenId";
+    nedbMock.remove.mockImplementationOnce(
+      ({ tokenId: someTokenId }, {}, callback: any) => {
+        callback(null, 1);
+      }
+    );
+
+    await sessionTokenDBAccess.deleteToken(someTokenId);
+    expect(nedbMock.remove).toBeCalledWith(
+      { tokenId: someTokenId },
+      {},
+      expect.any(Function)
+    );
+  });
+
+  test("deleteToken with Error", async () => {
+    const someTokenId = "someTokenId";
+    nedbMock.remove.mockImplementationOnce(
+      ({ tokenId: someTokenId }, {}, callback: any) => {
+        callback(new Error("Token not found"));
+      }
+    );
+
+    await expect(sessionTokenDBAccess.deleteToken(someTokenId)).rejects.toThrow(
+      "Token not found"
+    );
+    expect(nedbMock.remove).toBeCalledWith(
+      { tokenId: someTokenId },
+      {},
       expect.any(Function)
     );
   });
