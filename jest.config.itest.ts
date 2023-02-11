@@ -8,6 +8,10 @@ const configure: Config.InitialOptions = {
   testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$",
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   verbose: true,
+  transformIgnorePatterns: ["<rootDir>/node_modules/(?!axios)/"],
+  moduleNameMapper: {
+    "^axios$": require.resolve("axios"),
+  },
   testEnvironment: "node", // To be able to make HTTP requests
 };
 

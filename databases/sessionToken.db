@@ -6,12 +6,15 @@
 {"accessRights":[1,2,3,4],"expirationTime":{"$$date":1676116439169},"valid":true,"tokenId":"nl3oisu6zgl","_id":"AYfzcHw7FwKEys0z"}
 {"tokenId":"someTokenId9gytzj","userName":"someUserName","valid":true,"expirationTime":{"$$date":1676110700543},"accessRights":[1,2,3],"_id":"CZ3uEIO7otqfdRZu"}
 {"accessRights":[1,2,3,4],"expirationTime":{"$$date":1675608337096},"valid":true,"tokenId":"1sv7jpsr9yuh","_id":"DTvPP2sTvu4H2b4C"}
+{"accessRights":[1,2,3],"expirationTime":{"$$date":1676132779506},"userName":"itest","valid":true,"tokenId":"1kbbwtnksle","_id":"G9WNz4tvsAvoXhU1"}
 {"accessRights":[1,2,3,4],"expirationTime":{"$$date":1675608261436},"valid":true,"tokenId":"00zpjvxd5x4me","_id":"I3Cy9sCPkwKc5p1T"}
+{"accessRights":[1,2,3],"expirationTime":{"$$date":1676133035522},"userName":"itest","valid":true,"tokenId":"zwmzfw9argb","_id":"IbiKyb0ez4z18qg8"}
 {"accessRights":[1,2,3,4],"expirationTime":{"$$date":1675602744595},"valid":true,"tokenId":"eil3bid461r","_id":"KD06CXkLaAnC2v6I"}
 {"tokenId":"someTokenIdq64w73","userName":"someUserName","valid":true,"expirationTime":{"$$date":1676110510021},"accessRights":[1,2,3],"_id":"Mxxki2K2PCkxYYWN"}
 {"accessRights":[1,2,3,4],"expirationTime":{"$$date":1675601478859},"valid":true,"tokenId":"tyh7kzi62ic","_id":"aDZaCYpaYAIywVWW"}
 {"accessRights":[1,2,3,4],"expirationTime":{"$$date":1676114738043},"valid":true,"tokenId":"5drtmsvcr5s","_id":"iijAV5Fi7d0CNuqc"}
+{"accessRights":[1,2,3],"expirationTime":{"$$date":1676132981596},"userName":"itest","valid":true,"tokenId":"75ph05xrblf","_id":"oeJPdnHuZw6fiUHv"}
 {"accessRights":[1,2,3,4],"expirationTime":{"$$date":1597074714001},"valid":true,"tokenId":"oi3ob6s5hvg","_id":"wuQJTkvrbPqohg0M"}
 {"accessRights":[1,2,3,4],"expirationTime":{"$$date":1675602335330},"valid":true,"tokenId":"pt7to2zmtg","_id":"xUrqWzP7nXttekhy"}
-{"tokenId":"someTokenId4jjmws","userName":"someUserName","valid":true,"expirationTime":{"$$date":1676113491574},"accessRights":[1,2,3],"_id":"s4Gk0bNkyJWIGnEB"}
-{"$$deleted":true,"_id":"s4Gk0bNkyJWIGnEB"}
+{"tokenId":"someTokenId5jw1wl","userName":"someUserName","valid":true,"expirationTime":{"$$date":1676129435636},"accessRights":[1,2,3],"_id":"gvWybmlpNcTkL82e"}
+{"$$deleted":true,"_id":"gvWybmlpNcTkL82e"}
