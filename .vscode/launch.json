@@ -7,13 +7,38 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Test Spec File",
+      "name": "Test Current File",
       "program": "${workspaceFolder}/node_modules/.bin/jest",
       "args": [
         // "--collectCoverage=false",
         "--colors",
         "--config",
         "${workspaceRoot}/jest.config.ts",
+        "--runInBand",
+        // "--watch",
+        "--coverage=false",
+        "--no-cache",
+        // "--runTestsByPath",
+        // "${relativeFile}",
+        // "--testPathPattern=${fileDirname}",
+        // "--testTimeout=10000000"
+        "${fileBasenameNoExtension}"
+      ],
+      "outputCapture": "std",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "disableOptimisticBPs": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Test Current ITest File",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": [
+        // "--collectCoverage=false",
+        "--colors",
+        "--config",
+        "${workspaceRoot}/jest.config.itest.ts",
         "--runInBand",
         // "--watch",
         "--coverage=false",
